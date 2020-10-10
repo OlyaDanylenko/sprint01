@@ -1,0 +1,24 @@
+form {
+	line-height: 2em;
+}
+
+input {
+	padding-left: 10px;
+	width: 35%;	
+}
+
+
+button {
+	color: green;
+}
+
+button:hover {
+	color: red;
+}
+input {
+  color: green;
+}
+
+input:hover {		
+	color: red;
+}
