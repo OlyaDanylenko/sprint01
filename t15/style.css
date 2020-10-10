@@ -1,0 +1,18 @@
+* {
+    transition: all 1.5s ease;
+}
+
+table {
+  width: 100%;
+}
+td img {
+  width: 100%;
+}
+.Gauntlet {
+  width: 30%;
+  margin: 50px;
+}
+.Gauntlet:hover ~ table tbody tr:nth-child(2n + 1) td:nth-child(2n + 1),
+.Gauntlet:hover ~ table tbody tr:nth-child(2n) td:nth-child(2n) {
+  opacity: 0%;
+}

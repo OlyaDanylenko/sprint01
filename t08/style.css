@@ -1,0 +1,58 @@
+table {
+	border: 4px solid black;
+	background-image: linear-gradient(to right, #6e0000, #faebd7);
+    text-align: center;
+}
+
+td {
+	border: 2px;
+	bordercolor: rgba(189, 195, 199, 0.05);
+	padding-top: 5px;
+	padding-right: 50px;
+	padding-bottom: 5px;
+	padding-left: 50px;
+
+}
+
+th {
+	color: #ffe369;
+	font-weight: bold;
+	padding: 10px;
+ }
+
+ thead {
+ 	border: 2px;
+	border-color: rgba(189, 195, 199, 0.05);
+	background: rgba(110, 0, 0, 0.4);
+	
+}
+
+
+td.odd {
+	color: white;
+	font-weight: bold;
+	background: rgba(163, 94, 94, 0.5);
+}
+
+.fal {
+	color: white;
+	background: #8b0000 ;
+}
+td.nor {
+    color: #191970 ;
+	background: #faebd7 ;
+}
+
+.fc {
+	color: white;
+	font-weight: bold;
+	background: rgba (143,148,251, 0.1)
+}
+
+
+
+.link {
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+}

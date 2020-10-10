@@ -1,0 +1,19 @@
+p {
+	text-align: justify;
+    font-family:verdana, arial, sans-serif;
+
+}
+
+img {
+    float: left;
+    width: 60%;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media print {
+    img {
+        float: none;
+        margin-right: 0;
+    }

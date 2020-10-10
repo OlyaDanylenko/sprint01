@@ -1,0 +1,83 @@
+div.Captain_America  {
+/*background-image: -webkit-linear-gradient(bottom, #4568dc, #b06ab3);
+background-image: -moz-linear-gradient(bottom, #4568dc, #b06ab3);
+background-image: -o-linear-gradient(bottom, #4568dc, #b06ab3);*/
+background: linear-gradient(to bottom, #4568dc, #b06ab3);
+}     
+
+div.Iron_man {
+/*background-image: -webkit-linear-gradient(right bottom, #e52d27, #b31217);
+background-image: -moz-linear-gradient(right bottom, #e52d27, #b31217);
+background-image: -o-linear-gradient(right bottom, #e52d27, #b31217);*/
+background: linear-gradient(to right bottom, #e52d27, #b31217);
+}
+
+div.Black_Widow {
+/*background-image: -webkit-linear-gradient(right bottom, #000000, #61045f);
+background-image: -moz-linear-gradient(right bottom, #000000, #61045f);
+background-image: -o-linear-gradient(right bottom, #000000, #61045f);*/
+background: linear-gradient(to right bottom, #000000, #61045f);
+}
+
+div.Spider_Man {
+background: linear-gradient(to bottom, #e52d27, #000000);
+}
+
+
+div.Captain_America img{
+    height: 182px;
+    position: relative;
+    bottom: 42px;
+}
+
+div.Iron_man img{
+    height: 182px;
+    position: relative;
+    bottom: 42px;
+}
+
+div.Black_Widow img{
+    height: 182px;
+    position: relative;
+    bottom: 42px;
+}
+
+div.Spider_Man img{
+    height: 182px;
+    position: relative;
+    bottom: 20px;
+}
+
+
+.card_hr div {
+	display: inline-block; /*Задаем блочно-строчное отображение*/
+  	position: relative;
+    width: 270px; /*задаем ширину блока*/
+	height: 140px;
+    margin: 10px;
+	margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: Verdana, Geneva, sans-serif;
+   	vertical-align: left;
+	border-radius: 5px;
+        }
+
+h2 {
+
+color: white;
+position: absolute;
+top: 10px;
+right: 0;
+font-size: 12px;
+margin-right: 10px;
+
+        }
+
+p {
+color: rgba(255, 255, 255, 0.5);    
+position: absolute;
+top: 25px;
+right: 0;
+font-size: 9px;
+margin-right: 10px;
+}

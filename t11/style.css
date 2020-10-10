@@ -1,0 +1,35 @@
+.container {
+  display: inline-block;
+}
+
+.w_box {
+  display: inline-block;
+  text-align: center;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  width: 110px;
+}
+
+
+.date {
+  background: #4099b5;
+  font-size: 1.5em;
+  color: white;
+  font-weight: 700;
+}
+
+.degree {
+  font-size: 2em;
+  font-weight: 400;
+  color: black;
+}
+
+
+.w_box:hover {
+  box-shadow: 0 0 9px 4px #9F9797;
+}
+
+img {
+  width: 100%;
+  position: relative;
+}
+
